@@ -152,22 +152,9 @@ export default function Location() {
       <div>
         {location && (
           <div>
-            <span style={{ color: "black", fontWeight: 400 }}>
-              You Selected{" "}
-            </span>
-            <span style={{ color: "black", fontWeight: "bold" }}>
-              {selectedCity}
-            </span>
-            ,
-            <span style={{ color: "#dddddd", fontWeight: "bold" }}>
-              {" "}
-              {selectedState}
-            </span>
-            ,
-            <span style={{ color: "#dddddd", fontWeight: "bold" }}>
-              {" "}
-              {selectedCountry}
-            </span>
+            <p>
+              You selected {selectedCity}, {selectedState}, {selectedCountry}
+            </p>
           </div>
         )}
       </div>
